@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(182, 182, 182);
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    background-color: #2c2c2c;
+}
+
+nav img {
+    position: relative;
+    right: 75vw;
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: none;
+    background: none;
+    transition: 0.5s;
+    font-family: 'Staatliches', cursive;  
+}
+
+button:hover {
+    color: #2c2c2c;
+    cursor: pointer;
+    background-color: #dddddd;
+}
+
+#product-destaque {
+    color: #ffffff;
+    background-color: #525252;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#product-destaque img {
+    margin: 1em 5em 5em 0;
+}
+
+#product-destaque h1 {
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    font-size: 10rem;  
+}
+
+#product-destaque p { 
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;  
+}
+
+#product-title {
+    box-sizing: border-box;
+    margin-top: 5em;
+    padding: 5rem;
+    border-radius: 10px 10px 100px 10px;
+    background-color: #2c2c2c;
+    height: 40vh;
+    max-height: 40vh;
+}
+
+#product-title button {
+    margin-top: 2em;
+}
+
+#products {
+    background-color: #7a7a7a;
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+#products h2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Staatliches', cursive; 
+    font-size: 5rem;
+}
+
+#products-panel {
+    padding: 1em;
+    border-radius: 15px;
+    margin: 3em 0 0 0;
+    background-color: #2c2c2c;
+    width: 75%;
+    height: 75%;
+}
+
+.products-peripherals {
+    background-color: #dddddd;
+    margin: 1em 1em 1em 1em;
+}
+
+#product-destaque-men {
+    color: #ffffff;
+    background-color: #292929;
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    height: 65%;
+}
+
+#product-destaque-men img, #product-destaque-sound img {
+    width: 950px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+#products p {
+    position: relative;
+    font-family: 'Staatliches', cursive; 
+    font-size: 5rem; 
+    padding: 10rem;
+}
+
+#product-destaque-text, #product-destaque-sound-text {
+    margin: 5rem auto 0 auto;
+    height: 25%;
+    justify-content: center;
+}
+
+#product-destaque-sound {
+    color: #ffffff;
+    background-color: #555555;
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    height: 65%;
+}
+
+#product-destaque-men h2, #product-destaque-sound h2 {
+    font-size: 3rem;
+}
+
+#product-destaque-men p, #product-destaque-sound p {
+    font-size: 25px;
+    text-align: left;
+    margin: 1.5em auto 0 6.5em;
+    line-height: 40px;
+    padding: 0;
+    width: 65%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#product-contact {
+    color: #ffffff;
+    background-color: #292929;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+#product-contact h3 {
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Staatliches', cursive; 
+    font-size: 3rem;
+}
+
+#product-contact label {
+    display: block;
+}
+
+#product-contact p {
+    margin-top: 2em;
+}
+
+#product-contact span {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    height: 35vh;
+    background: url(/media/bg.jpg);
+}
+
+footer img {
+    margin: 0 auto;
+    width: 300px;
+}
+
+@media screen and (min-width: 480px) {
+    nav {
+        width: auto;
+    }
+    button {
+        margin-right: 0.5em;
+    }
+}
